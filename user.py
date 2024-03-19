@@ -16,6 +16,8 @@ class user:
         self.id = id
         self.ack = False
         self.my_taxi=None
+
+
         
         self.sim_env = sim_env
         

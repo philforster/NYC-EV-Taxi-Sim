@@ -22,6 +22,9 @@ class charging_station:
         
         return charge/self.charging_speed
 
+
+
+
     def addTaxi(self,taxi):
         self.queue.appendleft(taxi)
 

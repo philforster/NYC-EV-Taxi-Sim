@@ -9,6 +9,7 @@ import math
 import time
 from datetime import datetime
 import os
+import nyc_cab_data
 
 MAX_BATTERY = 100
 MAP_WIDTH = 225
@@ -21,6 +22,7 @@ NUM_GRID_X = 5
 NUM_GRID_Y = 15
 
 BLOCK_WIDTH = SIM_WIDTH/NUM_GRID_X
+
 BLOCK_HEIGHT = SIM_HEIGHT/NUM_GRID_Y
 
 X_RENDER_RATIO = MAP_WIDTH/SIM_WIDTH
@@ -655,14 +657,13 @@ class User:
             canvas.create_text(self.start_x*X_RENDER_RATIO,self.start_y*Y_RENDER_RATIO-2*self.size,text=f"{self.id}")
 
 
-
 env = Sim_env(NUM_TAXIS,render=RENDER,sim_time=TOTAL_TICS)
 
 
 while env.getTime()<env.sim_time:
-    # if(env.getTime() % 100 ==0):
-    #     env.printSystemState()
     env.simloop()
     env.passTime()
+        # if(env.getTime() % 100 ==0):
+        #     env.printSystemState()
 
 env.record_stats()

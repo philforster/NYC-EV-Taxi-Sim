@@ -23,6 +23,7 @@ class Taxi():
     closest_user = 0
 
 
+
     dest_charger_index = 0
 
     

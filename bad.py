@@ -30,6 +30,7 @@ class Sim_env:
         self.root = tkinter.Tk()
         self.root.title("NYC Taxis")
         self.root.geometry(f"{MAP_WIDTH}x{MAP_HEIGHT}")
+      
         self.myCanvas = tkinter.Canvas(self.root, bg="white", height=MAP_HEIGHT, width=MAP_WIDTH)
         self.myCanvas.pack(expand = True)
 
