@@ -1,0 +1,50 @@
+Sim Number 1
+City: Manhattan, NY size:4.44x14.11
+Battery Capacity: 71200WH, Car Consumption: 187.0WH/km, Average Vehicle Speed: 30
+Number of Taxis: 200, Number of Charging Stations: 10
+User generation probability: 0.1
+Simulation duration: 0.5083224773406982s
+
+
+
+Customer Aggregate data:
+Number of Customers served: 10
+
+Average Waiting Time: 5.1 Average Travel Time: 0.6429765935646821 Average Distance Travelled: 20.0
+
+Taxi Aggregate Data
+
+Average Customers Served: 0.01
+Average Time At Charger: 0.0
+Average Time Spent Charging: 5.85
+Average Distance Looking For Customers: 688.75
+Average Distance Charging (Should be 0): 20.125
+Average Distance Driving to Charger: 211.375
+Average Distance Driving Passengers to Destination: 6.375
+Average Distance Driving to Passengers: 0.25
+Average Time Looking For Customers: 5510.0
+Average Time Charging (Should be 0): 161.0
+Average Time Driving to Charger: 1691.0
+Average Time Driving Passengers to Destination: 51.0
+Average Time Driving to Passengers: 2.0
+Number of Taxis that Died: 1
+
+Charging Station Aggregate_data
+
+Average Charging Time: Charging Time
+Average Idle Time: Idle Time
+Average Queue Length: Queue Length
+Average Arrival Rate: Arrival Rate
+
+Charging positions:
+
+Position: (117, 3)
+Position: (117, 3)
+Position: (117, 3)
+Position: (117, 3)
+Position: (117, 3)
+Position: (117, 3)
+Position: (117, 3)
+Position: (117, 3)
+Position: (117, 3)
+Position: (117, 3)

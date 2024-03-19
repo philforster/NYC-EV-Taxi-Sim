@@ -1,0 +1,12 @@
+Sim Number 1
+City: Manhattan, NY size:4.44x14.11
+Battery Capacity: 71200WH, Car Consumption: 187.0WH/km, Average Vehicle Speed: 30
+Number of Taxis: 200, Number of Charging Stations: 10
+User generation probability: 0.1
+
+
+
+Customer Aggregate data:
+Number of Customers served: 585
+
+Average Waiting Time: 38.174358974358974 Average Travel Time: 4.772572144782444 Average Distance Travelled: 94.52991452991454
